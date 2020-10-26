@@ -1,0 +1,29 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "blog with authetication using JWT tokens in nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielaraujr/authentication.git"
+  },
+  "keywords": [
+    "authentication"
+  ],
+  "author": "Gabriel Araujo <matadoxx@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielaraujr/authentication/issues"
+  },
+  "homepage": "https://github.com/gabrielaraujr/authentication#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
+}
