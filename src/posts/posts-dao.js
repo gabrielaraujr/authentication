@@ -1,4 +1,4 @@
-const db = require('../../database');
+const db = require('../../connect');
 
 module.exports = {
   adiciona: post => {
@@ -6,7 +6,7 @@ module.exports = {
       db.run(
         `
         INSERT INTO posts (
-          titulo, 
+          titulo,
           conteudo
         ) VALUES (?, ?)
       `,
