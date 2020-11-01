@@ -1,4 +1,4 @@
-const db = require('../../connect');
+const db = require('../../database');
 const { InternalServerError } = require('../erros');
 
 module.exports = {
